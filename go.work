@@ -1,0 +1,8 @@
+go 1.26.0
+
+use (
+	./services/auth-service
+	./services/dispatcher-worker
+	./services/geo-service
+	./services/report-service
+)
